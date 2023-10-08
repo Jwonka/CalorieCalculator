@@ -1,0 +1,4 @@
+﻿DELETE FROM User_Tbl;
+
+
+DBCC CHECKIDENT ('User_Tbl', RESEED, 0);
